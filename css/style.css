@@ -1,0 +1,18 @@
+.carousel{
+    height: 100vh;
+    background-color: teal;
+    position: relative;
+    overflow: hidden;
+}
+.carousel .track{
+    position: absolute;
+    top: 150px;
+    display: inline-flex;
+    touch-action: none;
+}
+.carousel .track .card{
+    background-color: transparent;
+    /* width: 300px; */
+    height: 300px;
+    border: 0;
+}
